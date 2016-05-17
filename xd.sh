@@ -21,6 +21,6 @@ case $1 in
     grep "xdebug.remote_enable" ${phpinipath}
   ;;
   *)
-    echo "Usage: php_debug on|off"
+    echo "Usage: xd on|off|status"
   ;;
 esac
